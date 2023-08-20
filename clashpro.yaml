@@ -69,7 +69,7 @@ i:    &a7 {type: http,     behavior: ipcidr,    interval: 86400}
 proxy-providers:
   Subscribe:
     <<: *a1
-    url: https://sub.id9.cc/sub?target=clash&new_name=true&url=https%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Ftelescope&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Mini_MultiCountry.ini&emoji=true&list=true&tfo=false&scv=false&fdn=false&sort=false
+    url: https://api.subcloud.xyz/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Floonvip%2F2028%2Fmain%2Ftelescope&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&emoji=true&list=true&tfo=false&scv=true&fdn=false&sort=false&udp=true&new_name=true
     # URL后面填写格式1[单一订阅]: 直接填写你的机场Clash订阅[推荐此种方式，避免订阅泄露]
     # URL后面填写格式2[多个订阅]：https://api.nexconvert.com/sub?target=clash&url=请手动填入你的订阅(多机场订阅用|分割即可)&emoji=true&list=true&new_name=true&udp=false
     path: ./proxy_providers/tmp.yaml
